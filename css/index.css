@@ -59,7 +59,7 @@ main #new_king {
 
 main #new_king .container_throne {
     background-color: var(--secondary);
-    width: 350px;
+    width: 450px;
     height: 100%;
     display: flex;
     justify-content: center;

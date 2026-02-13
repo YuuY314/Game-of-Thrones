@@ -23,26 +23,26 @@ houseCards.forEach((card) => {
         switch(card.id) {
             case "baratheon":
                 name.textContent = "Stannis Baratheon";
-                img.src = "../img/stannis.webp";
+                img.src = "https://wiki.geloefogo.com/images/9/96/Stannis_Baratheon_and_Shireen_Baratheon_By_Magali_Villeneuve.jpg";
                 img.alt = "Stannis Baratheon";
                 kingText.textContent = "Stannis Baratheon";
                 break;
             case "lannister":
                 name.textContent = "Joffrey Lannister";
-                img.src = "../img/joffrey.webp";
+                img.src = "https://awoiaf.westeros.org/images/0/08/MagaliVilleneuve_JoffreyBaratheon.jpg";
                 img.alt = "Joffrey Lannister";
                 kingText.textContent = "Joffrey Lannister";
                 break;
             case "targaryen":
                 name.textContent = "Daenerys Targaryen";
-                img.src = "../img/daenerys.webp";
+                img.src = "https://carlybooks.wordpress.com/wp-content/uploads/2023/03/aa.jpg?w=676";
                 img.alt = "Daenerys Targaryen";
                 kingText.textContent = "Daenerys Targaryen";
                 genderText.textContent = "a rainha";
                 break;
             case "blackfyre":
                 name.textContent = "Aegon Blackfyre";
-                img.src = "../img/aegon.webp";
+                img.src = "https://awoiaf.westeros.org/images/thumb/9/95/Borja_Pindado_unexpectedreturn.jpg/572px-Borja_Pindado_unexpectedreturn.jpg";
                 img.alt = "Aegon Blackfyre";
                 kingText.textContent = "Aegon Blackfyre";
                 break;
