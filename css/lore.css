@@ -1,0 +1,63 @@
+main {
+    height: auto;
+    padding: 20px;
+    gap: 10px;
+}
+
+main #container_lore {
+    background-color: var(--secondary);
+    height: 99%;
+    width: 80%;
+    border: 5px solid var(--focus);
+    padding: 20px;
+    position: relative;
+}
+
+main #container_lore h2 {
+    margin-block: 1rem;
+}
+
+main #container_lore p {
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+}
+
+main #container_lore #source {
+    text-decoration: none;
+    color: var(--text);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    transition: .5s;
+}
+
+main #container_lore #source:hover {
+    color: var(--focus);
+}
+
+.img {
+    width: 30%;
+    height: auto;
+    text-align: center;
+}
+
+.img img {
+    width: 82%;
+}
+
+.img a {
+    color: var(--text);
+}
+
+.right {
+    float: right;
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+
+.left {
+    float: left;
+    margin-right: .5rem;
+    margin-top: 1rem;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", "Times New Roman", serif;
+}
+
+/*
+Preto carvão #0B0C10
+Cinza pedra #2E2E2E
+Branco gelo #E5E5E5
+Vermelho sangue #7A1E1E
+Dourado antigo #BFA76F
+*/
+
+:root {
+    --primary: #0b0c10;
+    --secondary: #2e2e2e;
+    --text: #e5e5e5;
+    --detail: #7a1e1e;
+    --focus: #bfa76f;
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--text);
+}
+
+header {
+    height: 70px;
+    background-color: var(--primary);
+    border-bottom: 2px solid var(--focus);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a h1 {
+    color: var(--text);
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 1.5rem;
+    transition: .5s;
+}
+
+header a:hover {
+    color: var(--focus);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    padding: 20px;
+    border-top: 2px solid var(--focus);
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--focus);
+    transition: .5s;
+}
+
+footer a:hover {
+    color: var(--detail);
+}
+
+.title {
+    font-family: "Cinzel";
+}
+
+.hide {
+    display: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}

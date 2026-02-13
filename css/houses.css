@@ -1,0 +1,87 @@
+main {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    width: 100%;
+    padding: 50px;
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main #map {
+    height: 70vh;
+    width: 20vw;
+    background-color: var(--secondary);
+    border-radius: 5px;
+    border: 5px solid var(--focus);
+    position: sticky;
+    top: 50px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 20px;
+}
+
+main #map img {
+    height: 100%;
+    object-fit: contain;
+}
+
+main .house_container {
+    width: 50vw;
+    background-color: var(--secondary);
+    height: 550px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border: 5px solid var(--focus);
+    border-radius: 5px;
+}
+
+main .house_container .sigil {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .house_container .sigil img {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+}
+
+main .house_container .sigil h2 {
+    background-color: var(--detail);
+    padding: 5px;
+    border-radius: 5px;
+    margin-block: 10px;
+}
+
+main .house_container .house_info {
+    width: 50%;
+}
+
+main .house_container .house_info ul {
+    margin-left: 2rem;
+}
+
+main .house_container .house_info ul li {
+    font-size: 1.125rem;
+}
+
+main .house_container .house_info h1, h2, li {
+    margin-block: 10px;
+}

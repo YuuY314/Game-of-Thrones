@@ -1,0 +1,50 @@
+main {
+    height: 80vh;
+}
+
+main #container_bio {
+    width: 50%;
+    height: 80%;
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid var(--focus);
+    flex-direction: column;
+    gap: 30px;
+}
+
+main #bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main #bio h2, p {
+    margin-bottom: 1rem;
+}
+
+main #contacts {
+    text-align: center;
+    width: 80%;
+}
+
+main #contacts a {
+    text-decoration: none;
+}
+
+main #contacts i {
+    font-size: 3rem;
+    color: var(--text);
+}
+
+main #contacts i:hover {
+    color: var(--focus);
+    transition: .5s;
+}
+
+main #contacts #icons {
+    display: flex;
+    justify-content: space-evenly;
+}

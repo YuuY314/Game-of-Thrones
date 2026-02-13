@@ -1,0 +1,113 @@
+main #banner {
+    height: 60vh;
+    width: 100%;
+    background-image: url("../img/banner.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--primary);
+}
+
+main #choose {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main #choose #container_houses {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70vw;
+    padding: 10px;
+    background-color: var(--secondary);
+    margin-block: 1.5rem;
+    border: 5px solid var(--focus);
+    border-radius: 5px;
+}
+
+main #choose .house_cards {
+    height: 300px;
+    width: 200px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    transition: .5s ease-in-out;
+}
+
+main #choose .house_cards img {
+    height: 200px;
+}
+
+main #choose .house_cards:hover {
+    transform: scale(1.2);
+}
+
+main #new_king {
+    height: 50vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+main #new_king .container_throne {
+    background-color: var(--secondary);
+    width: 350px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid var(--focus);
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+main #new_king #iron_throne img {
+    height: 80%;
+}
+
+main #new_king #candidate img {
+    height: 70%;
+    width: auto;
+    object-fit: contain;
+}
+
+main #new_king #candidate button {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 0;
+    background-color: var(--detail);
+    color: var(--text);
+    cursor: pointer;
+}
+
+main #new_king #candidate button:hover {
+    background-color: var(--text);
+    color: var(--detail);
+    transition: .5s;
+}
+
+main #chosen_king {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 2rem;
+}
+
+main #chosen_king h2 {
+    background-color: var(--secondary);
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid var(--focus);
+}

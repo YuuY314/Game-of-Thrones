@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo a Westeros</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h1 class="title">Game of</h1>
+            <h1 class="title">Thrones</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="characters.html">Personagens</a></li>
+                <li><a href="houses.html">Casas</a></li>
+                <li><a href="lore.html">História</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="banner"></section>
+        <section id="choose">
+            <h1>Escolha seu lado para governar os Sete Reinos de Westeros!</h1>
+            <div id="container_houses">
+                <div class="house_cards" id="baratheon">
+                    <img src="img/baratheon.webp" alt="Heráldica Baratheon">
+                    <h2>Casa Baratheon</h2>
+                </div>
+                <div class="house_cards" id="lannister">
+                    <img src="img/lannister.webp" alt="Heráldica Lannister">
+                    <h2>Casa Lannister</h2>
+                </div>
+                <div class="house_cards" id="targaryen">
+                    <img src="img/targaryen.webp" alt="Heráldica Targaryen">
+                    <h2>Casa Targaryen</h2>
+                </div>
+                <div class="house_cards" id="blackfyre">
+                    <img src="img/blackfyre.webp" alt="Heráldica Blackfyre">
+                    <h2>Casa Blackfyre</h2>
+                </div>
+            </div>
+        </section>
+        <section id="new_king">
+            <div id="iron_throne" class="container_throne">
+                <h2>O Trono de Ferro</h2>
+                <img src="img/iron_throne.png" alt="Trono de Ferro">
+            </div>
+            <div id="candidate" class="container_throne">
+                <h2>Selecione seu pretendente ao Trono de Ferro!</h2>
+                <img class="hide">
+                <button class="hide">Confirmar</button>
+            </div>
+        </section>
+        <section id="chosen_king" class="hidden">
+            <h2>Todos saudam <span id="gender">o rei</span> <span id="chosen">Stannis Baratheon</span>!</h2>
+        </section>
+    </main>
+    <footer>
+        <h2>Desenvolvido por <a href="https://github.com/YuuY314" target="_blank">Rafael Yu</a></h2>
+    </footer>
+</body>
+</html>

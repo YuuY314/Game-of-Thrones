@@ -1,0 +1,31 @@
+main {
+    height: 150vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main .character_card {
+    width: 17%;
+    height: 30%;
+    border: 5px solid var(--focus);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .75rem;
+    background-color: var(--secondary);
+    border-radius: 5px;
+    padding-block: 20px;
+    padding-inline: 10px;
+    text-align: center;
+}
+
+main .character_card img {
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+    object-position: center;
+}
